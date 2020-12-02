@@ -1,6 +1,17 @@
 this is where I am putting all of my rough code
 
-test1, test2, test3, test4, test5 are my inital simulation of the maze exploration logic for a single robot
+
+11/18/2020
+
+in files test1, test2, test3, test4, test5 are my inital simulation of the maze exploration logic for a single robot
 
 test6 shows that my logic does not misbehave after 2000000 cycles. does not prove much I would need to do more testing to say that it works conclusively.
 itt works well enough for me to move on
+
+12/2/2020
+
+I am trying to find a solutino to make the robot stop with it's wheels over the intersection line. to this end I have tried mounting additional sensros to the robot.
+I had to intigrate the sensotrs into the existing robot circuit.
+
+in the file back_sensors I tried mounting the sesors to the back of the robot and did not have any success in having the robot follow the lione.
+in the file mid I tried mounting the sensors to the bottom of the robot, I have not tested the line following yet 
